@@ -1,0 +1,11 @@
+
+module MatriceService{
+
+typedef sequence<long> colonne;
+typedef sequence<colonne> Matrice;
+
+interface calculeMatriciel{
+       Matrice addition(in Matrice m1,in Matrice m2);
+       Matrice multiplication(in Matrice m1,in Matrice m2);
+};
+};
